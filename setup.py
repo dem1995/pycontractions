@@ -13,7 +13,7 @@ setup(
     license="BSD",
     packages=find_packages(),
     long_description=open("README.rst").read(),
-    install_requires=["gensim>=2.0", "language_check>=2.0.3", "pyemd>=0.4.4"],
+    install_requires=["gensim>=2.0", "language_tool_python>=2.0.3", "pyemd>=0.4.4"],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
