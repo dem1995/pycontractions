@@ -9,11 +9,11 @@ setup(
     description="Intelligently expand and create contractions in text leveraging grammar checking and Word Mover's Distance.",
     author="Ian Beaver, Verint - Next IT",
     author_email="ian.beaver@verint.com",
-    url="https://github.com/ian-beaver/pycontractions",
+    url="https://github.com/dem1995/pycontractions",
     license="BSD",
     packages=find_packages(),
     long_description=open("README.rst").read(),
-    install_requires=["gensim>=2.0", "language_check>=1.0", "pyemd>=0.4.4"],
+    install_requires=["gensim>=2.0", "language_check>=2.0.3", "pyemd>=0.4.4"],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Console',
